@@ -1,1 +1,3 @@
-# The browser
+# Understanding the browser
+
+# Contributors

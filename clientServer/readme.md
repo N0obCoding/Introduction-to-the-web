@@ -1,1 +1,3 @@
-# The Client-Server model
+# The client-server model
+
+# Contributors

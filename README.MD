@@ -6,8 +6,6 @@
 <p align="center">Community Built Web Development Courses</p>
 
 # **Module 1:** Introduction to the Web
-
-## Course Overview
 This module presents an introduction to the web from a developer's perspective. It covers basic concepts that every aspiring Web Developer must understand in order to design and build web solutions.
 
 After taking this course you will understand the client-server model, how data is transmited throught the web and how the browser interprets, draws and presents information to your users. You will learn the basics of the Hyper Text Transfer Protocol (HTTP) and how the browser will help you find and fix errors in your application.
@@ -19,7 +17,7 @@ After taking this course you will understand the client-server model, how data i
 
 ## Course Contents
 * [The client-server Model](./clientServer)
-* [A look at the browser](./browser)
+* [Understanding the browser](./browser)
 * [The DOM](./dom)
     * HTML: An overview
     * CSS: An overview
@@ -32,6 +30,13 @@ After taking this course you will understand the client-server model, how data i
     * Exploring the DOM.
     * The Javascript console
     * The Network tab
+
+# On contributing content and Plagiarism
+Please be mindful with the content you include. If you quote or use content created by someone else, always give credit to the original author and make sure that you have their permission to share their content.
+
+Contributions that copy commercial courses, or that fail to include references to the original source will be removed or declined.
+
+**If you are an author, and you believe this course contains plagiarized content, please open a new issue [here](https://github.com/N0obCoding/Introduction-to-the-web/issues/new).**
 
 # Hacktoberfest
 [Hacktoberfest®](https://hacktoberfest.digitalocean.com/) is on! You can help drive growth of open source and make positive contributions to an ever-growing community. All backgrounds and skill levels are encouraged to participate!
