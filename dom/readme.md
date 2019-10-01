@@ -100,14 +100,14 @@ img.removeAttribute(‘src’);
 
 One of the DOM’s most powerful features is the ability to define events. There are many types of DOM events built-in for developers to use. Here are some of the most popular:
 
-```click``` - when a pointing device is pressed and released on an element
-```mousedown``` - when a pointing device is pressed down on an element
-```mouseenter``` - when a pointing device moves onto an element
-```mouseout``` - when a pointing device moves off an element
-```mouseover``` - triggered persistently whilst a pointing device moves over an element
-```keydown``` - a key is pressed down
-```keyup``` - a key is released
-```Input``` - an element’s value changes. The element has the contenteditable HTML attribute
+* ```click``` - when a pointing device is pressed and released on an element
+* ```mousedown``` - when a pointing device is pressed down on an element
+* ```mouseenter``` - when a pointing device moves onto an element
+* ```mouseout``` - when a pointing device moves off an element
+* ```mouseover``` - triggered persistently whilst a pointing device moves over an element
+* ```keydown``` - a key is pressed down
+* ```keyup``` - a key is released
+* ```Input``` - an element’s value changes. The element has the contenteditable HTML attribute
 
 There are many more events which you may read about further here: 
 https://developer.mozilla.org/en-US/docs/Web/Events
