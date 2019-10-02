@@ -198,4 +198,4 @@ There is a further range of methods such as ```.insertBefore()``` and ```.insert
 Once you play around with these DOM basics for a while, try browsing around the web again, and consider just how many amazing possibilities you can already achieve with what you have learned about the DOM.
 
 # Contributors
-Carl Evans [https://github.com/carl-evans]
+(Carl Evans)[https://github.com/carl-evans]
