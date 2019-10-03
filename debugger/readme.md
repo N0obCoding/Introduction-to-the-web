@@ -14,10 +14,15 @@ Within the CSS panel, you can toggle if a property is displayed, add new CSS pro
 
 ### The Console Tab
 
-When it comes to JS, the console is a great place to test short pieces of code. 
+When it comes to JS, the console is a great place to test code! Some ways to test code in the console:
+
+- Adding `console.log("message")` messages to your code to indicate when you hit that line of code
+- Typing directly into the console and seeing the output live
+- Errors will appear in the console including a trace back to where the error originated from
 
 ### Responsible Preview/Mobile Preview
 
-Some browsers offer the ability to preview what a page would look like in sizes other than your window's size, including presets for various mobile devices to help debug visual issues on those devices. 
+Some browsers offer the ability to preview what a page would look like in sizes other than your window's size, including presets for various mobile devices to help debug visual issues on those devices. `Ctrl + Shift + M` will toggle on/off responsive view in Chrome and Firefox. 
 
 # Contributors
+[Tyler VanBlargan](https://github.com/12vanblart)
