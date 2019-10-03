@@ -12,11 +12,11 @@ The Inspector tab has a section where the HTML structure for the page is display
 
 Within the CSS panel, you can toggle if a property is displayed, add new CSS properties to see how it will affect your page live, and even edit existing properties. It's important to note that these changes are **local to your browser** and not being saved to the document, so refreshing the page or navigating to a new URL will reset any changes you have in place. 
 
-## The Console Tab
+### The Console Tab
 
 When it comes to JS, the console is a great place to test short pieces of code. 
 
-## Responsible Preview/Mobile Preview
+### Responsible Preview/Mobile Preview
 
 Some browsers offer the ability to preview what a page would look like in sizes other than your window's size, including presets for various mobile devices to help debug visual issues on those devices. 
 
