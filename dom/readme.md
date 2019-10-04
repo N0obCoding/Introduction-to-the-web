@@ -5,6 +5,9 @@ The DOM (Document Object Model) is an API (Application Programming Interface) th
 
 In other words, through use of the DOM, a protocol is established, and this standard allows developers to use JavaScript to dynamically access and update documents.
 
+
+If this sounds difficult to understand, you can view it like this: the DOM is a way that you (and your browser) can represent the entire HTML or XML page, that looks pretty much like a tree. Let's imagine a basic html page. The tree is your page. You have a branch called "body". Let's say you used several "section" tags nested within your "body" tag. You can view each of those "section" tags as a branch growing on your "body" branch. Thanks to this tree-like representation of the webpage, we can then select the exact branch we want and do things with it. 
+
 # Why use the DOM?
 Specifically, developers may use JavaScript and the DOM to:
 
@@ -15,17 +18,28 @@ Specifically, developers may use JavaScript and the DOM to:
 
 In JavaScript, you may access an object’s methods and properties using dot notation.
 
+If you see code that looks like this: document.getSomething(moreWords), the "document" part is the object, the "getSomething" is the method, the "moreWords" is the argument.
+
+Objects are an important javascript concept that you might be interested in refining later. For the purpose of this document, assuming you don't know anything else about objects, think of methods as a kind of function, defined to be used on a specific object. Here you don't have to do the defining, you can just use those that already exist to grab the branches you need in the DOM tree. The object we are manipulating here is "document", so your HTML or XML webpage.
+
+Let's see some ways to do just that.
+
+# Dom manipulations
+
 Get an element by ID:
 ```
 document.getElementById(‘yourElementID’);
 ```
 
-Document is the object, and the dot is used to access its method (getElementById), and then you may pass the ID as an argument to this method.
+Document is the object, in this case the web page you want something from, and the dot is used to access its method (getElementById), and then you may pass the ID as an argument to this method. 
+
+Pay attention to "element" : here it is written in the singular. This is not the case for the other ways you can use to access the DOM, where we use the plural form. Using "getElementById" will return only one "branch" from the tree as we discussed above. Other ways of accessing the DOM will return more than one.
 
 Get elements by class name:
 ```
 document.getElementsByClassName(‘yourElementClass’);
 ```
+As mentioned just above, this is a way of grabbing things from your webpage that can return more than one item. If you have used the class "purple" twice in your webpage, this snippet of code will catch both of those instances. They will automatically be given a number, by the order in which they are encountered in the webpage code when you read if from top to bottom. The first one encountered in the webpage will be 0. The second one will be 1, then 2 etc.
 
 Get the first element of class name:
 ```
@@ -46,6 +60,8 @@ Get an element matching CSS selector:
 ```
 document.querySelector(‘#myContainer .myClass button’);
 ```
+Pay special attention to whether your selector is a class (starts with a . in your CSS) or an id (starts with a # in your CSS) when you're selecting based on CSS. Include those symbols in the argument you pass.
+
 Get all elements matching CSS selector:
 ```
 document.querySelectorAll(‘.myClassToSelect’);
@@ -61,6 +77,7 @@ Get the text content inside the page’s heading:
 ```
 document.querySelector(‘.button’).textContent;
 ```
+Another way to do this is to use the .innerText method, but the latter won't grab the text between <script> or <style> tags.
 
 Or use a variable
 ```
