@@ -216,3 +216,8 @@ Once you play around with these DOM basics for a while, try browsing around the 
 
 # Contributors
 [Carl Evans](https://github.com/carl-evans)
+
+### License
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit [http://creativecommons.org/licenses/by-sa/4.0/](http://creativecommons.org/licenses/by-sa/4.0/).
+

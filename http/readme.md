@@ -40,5 +40,10 @@ Response Code are formed in 3 digits, the first digit indicate the type of the r
   * 5xx : Server Errors
 
 
-# Contributors
+## Contributors
 RichardLim00
+
+### License
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit [http://creativecommons.org/licenses/by-sa/4.0/](http://creativecommons.org/licenses/by-sa/4.0/).
+
