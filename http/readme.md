@@ -50,6 +50,18 @@ DELETE operations are idempotent. If you DELETE a resource, it’s removed from 
 Response Code are formed in 3 digits, the first digit indicate the type of the response. Below are the 5 types of Response Code. Response Code reveals information about the request made, whether it's success, failed or changed.
 
   * 1xx : Informational Response
+	* 100 Continue
+		This interim response indicates that everything so far is OK and that the client should continue the request, or ignore the response if the request is already finished.
+
+	* 101 Switching Protocol
+		This code is sent in response to an Upgrade request header from the client, and indicates the protocol the server is switching to.
+	
+	* 102 Processing (WebDAV)
+		This code indicates that the server has received and is processing the request, but no response is available yet.
+	
+	* 103 Early Hints
+		This status code is primarily intended to be used with the Link header, letting the user agent start preloading resources while the server prepares a response.
+
   * 2xx : Success
   * 3xx : Redirection
   * 4xx : Client Errors
