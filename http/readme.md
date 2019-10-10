@@ -23,12 +23,18 @@ After clicking the link, you should see an Error 404 page, which is Github Serve
 We can see that the request involved in the above explanation is about getting resources, this request method is known as **GET**. However, there are few other request methods can be utilized. Below listed request method are among the most commonly used.
   1. **GET**
   2. **POST**
+  3. **PUT**
   
 ### GET
 Every time we try to load a page, we are actually utilizing GET method. As the name suggested, this method helps us to fetch data from the server.
 
 ### POST
 Every time we are trying to submit something to the server (Examples: Facebook Post, Tweet), we are using the POST method. This method helps us to send informations to the server.
+
+### PUT
+Use PUT APIs primarily to update existing resource (if the resource does not exist then API may decide to create a new resource or not). If a new resource has been created by the PUT API, the origin server MUST inform the user agent via the HTTP response code 201 (Created) response and if an existing resource is modified, either the 200 (OK) or 204 (No Content) response codes SHOULD be sent to indicate successful completion of the request.
+
+If the request passes through a cache and the Request-URI identifies one or more currently cached entities, those entries SHOULD be treated as stale. Responses to this method are not cacheable.
 
 ## Response Code
 Response Code are formed in 3 digits, the first digit indicate the type of the response. Below are the 5 types of Response Code. Response Code reveals information about the request made, whether it's success, failed or changed.
@@ -42,6 +48,7 @@ Response Code are formed in 3 digits, the first digit indicate the type of the r
 
 ## Contributors
 RichardLim00
+mrnoob4
 
 ### License
 
