@@ -36,6 +36,9 @@ Use PUT APIs primarily to update existing resource (if the resource does not exi
 
 If the request passes through a cache and the Request-URI identifies one or more currently cached entities, those entries SHOULD be treated as stale. Responses to this method are not cacheable.
 
+### Difference between POST and PUT
+The difference between the POST and PUT APIs can be observed in request URIs. POST requests are made on resource collections whereas PUT requests are made on an individual resource.
+
 ### DELETE
 As the name applies, DELETE APIs are used to delete resources (identified by the Request-URI).
 
