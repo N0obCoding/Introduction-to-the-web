@@ -24,7 +24,7 @@ We can see that the request involved in the above explanation is about getting r
   1. **GET**
   2. **POST**
   3. **PUT**
-  
+  4. **DELETE**  
 ### GET
 Every time we try to load a page, we are actually utilizing GET method. As the name suggested, this method helps us to fetch data from the server.
 
@@ -35,6 +35,13 @@ Every time we are trying to submit something to the server (Examples: Facebook P
 Use PUT APIs primarily to update existing resource (if the resource does not exist then API may decide to create a new resource or not). If a new resource has been created by the PUT API, the origin server MUST inform the user agent via the HTTP response code 201 (Created) response and if an existing resource is modified, either the 200 (OK) or 204 (No Content) response codes SHOULD be sent to indicate successful completion of the request.
 
 If the request passes through a cache and the Request-URI identifies one or more currently cached entities, those entries SHOULD be treated as stale. Responses to this method are not cacheable.
+
+### DELETE
+As the name applies, DELETE APIs are used to delete resources (identified by the Request-URI).
+
+A successful response of DELETE requests SHOULD be HTTP response code 200 (OK) if the response includes an entity describing the status, 202 (Accepted) if the action has been queued, or 204 (No Content) if the action has been performed but the response does not include an entity.
+
+DELETE operations are idempotent. If you DELETE a resource, it’s removed from the collection of resource. Repeatedly calling DELETE API on that resource will not change the outcome – however calling DELETE on a resource a second time will return a 404 (NOT FOUND) since it was already removed. Some may argue that it makes DELETE method non-idempotent. It’s a matter of discussion and personal opinion.
 
 ## Response Code
 Response Code are formed in 3 digits, the first digit indicate the type of the response. Below are the 5 types of Response Code. Response Code reveals information about the request made, whether it's success, failed or changed.
