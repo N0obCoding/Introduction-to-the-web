@@ -63,6 +63,31 @@ Response Code are formed in 3 digits, the first digit indicate the type of the r
 		This status code is primarily intended to be used with the Link header, letting the user agent start preloading resources while the server prepares a response.
 
   * 2xx : Success
+	* 200 OK
+		The request has succeeded. The meaning of the success depends on the HTTP method:
+			GET: The resource has been fetched and is transmitted in the message body.
+			HEAD: The entity headers are in the message body.
+			PUT or POST: The resource describing the result of the action is transmitted in the message body.
+			TRACE: The message body contains the request message as received by the server
+
+	* 201 Created
+		The request has succeeded and a new resource has been created as a result. This is typically the response sent after POST requests, or some PUT requests.
+
+	* 202 Accepted
+ 		The request has been received but not yet acted upon. It is noncommittal, since there is no way in HTTP to later send an asynchronous response indicating the outcome of the request. It is intended for cases where another process or server handles the request, or for batch processing.
+
+	* 203 Non-Authoritative Information
+ 		This response code means the returned meta-information is not exactly the same as available from the origin server, but collected from a local or a third-party copy. This is mostly used for mirrors or backups of another resource. Except for that specific case, 200 OK response should be preferred instead of this status.
+
+	* 204 No Content
+ 		There is no content to send for this request, but the headers may be useful. The user-agent may update its cached headers for this resource with the new ones.
+
+	* 205 Reset Content
+		Tells the user-agent to reset the document which sent this request.
+
+	* 206 Partial Content
+		This response code is used when the Range header is sent from the client to request only part of a resource.
+
   * 3xx : Redirection
   * 4xx : Client Errors
   * 5xx : Server Errors
