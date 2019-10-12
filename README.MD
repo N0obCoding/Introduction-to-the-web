@@ -15,7 +15,7 @@ After taking this course you will understand the client-server model, how data i
 ### Pre-requisites
 * Estimated duration: **?? hours**.
 * Computer
-* Chrome (or similar modern browser)
+* Google Chrome, Mozilla Firefox, Safari (or similar modern browser)
 
 ## Course Contents
 * [The client-server Model](./clientServer)
