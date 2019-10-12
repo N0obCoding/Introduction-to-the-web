@@ -20,6 +20,9 @@ After taking this course you will understand the client-server model, how data i
 ## Course Contents
 * [The client-server Model](./clientServer)
 * [Understanding the browser](./browser)
+    * Introduction to browser
+    * Functionality of browser
+    * Languages used by the browser
 * [The DOM](./dom)
     * HTML: An overview
     * CSS: An overview
