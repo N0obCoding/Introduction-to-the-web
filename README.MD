@@ -1,11 +1,12 @@
 #  Noob Coding
 
-![CC BY-SA 4.0 International](https://licensebuttons.net/l/by-sa/3.0/80x15.png)
 
 <p align="center">
   <img src="https://github.com/N0obCoding/Courses/blob/master/assets/NoobCoding-500x175.png?raw=true" width="200">
 </p>
 <p align="center">Community Built Web Development Courses</p>
+
+![CC BY-SA 4.0 International](https://licensebuttons.net/l/by-sa/3.0/80x15.png)
 
 # **Module 1:** Introduction to the Web
 This module presents an introduction to the web from a developer's perspective. It covers basic concepts that every aspiring Web Developer must understand in order to design and build web solutions.
