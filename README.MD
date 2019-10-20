@@ -18,20 +18,20 @@ After taking this course you will understand the client-server model, how data i
 * Chrome (or similar modern browser)
 
 ## Course Contents
-* [The client-server Model](./clientServer)
-* [Understanding the browser](./browser)
+* [The client-server Model](./1_clientServer)
+* [Understanding the browser](./2_browser)
     * Introduction to browser
     * Functionality of browser
     * Languages used by the browser
-* [The DOM](./dom)
+* [The DOM](./3_dom)
     * HTML: An overview
     * CSS: An overview
     * Javascript: An overview
-* [Basic HTTP](./http)
+* [Basic HTTP](./4_http)
     * Request methods
     * Response code
     * HTTPS
-* [Debugger tools](./debugger)
+* [Debugger tools](./5_debugger)
     * Exploring the DOM.
     * The Javascript console
     * The Network tab
