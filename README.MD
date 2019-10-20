@@ -1,12 +1,12 @@
 #  Noob Coding
 
-![CC BY-SA 4.0 International](https://licensebuttons.net/l/by-sa/3.0/80x15.png)
 
 <p align="center">
   <img src="https://github.com/N0obCoding/Courses/blob/master/assets/NoobCoding-500x175.png?raw=true" width="200">
 </p>
 <p align="center">Community Built Web Development Courses</p>
 
+![CC BY-SA 4.0 International](https://licensebuttons.net/l/by-sa/3.0/80x15.png)
 # **Module 1:** Introduction to the Web
 This module presents an introduction to the web from a developer's perspective. It covers basic concepts that every aspiring Web Developer must understand in order to design and build web solutions.
 
@@ -18,20 +18,20 @@ After taking this course you will understand the client-server model, how data i
 * Chrome (or similar modern browser)
 
 ## Course Contents
-* [The client-server Model](./clientServer)
-* [Understanding the browser](./browser)
+* [The client-server Model](./1_clientServer)
+* [Understanding the browser](./2_browser)
     * Introduction to browser
     * Functionality of browser
     * Languages used by the browser
-* [The DOM](./dom)
+* [The DOM](./3_dom)
     * HTML: An overview
     * CSS: An overview
     * Javascript: An overview
-* [Basic HTTP](./http)
+* [Basic HTTP](./4_http)
     * Request methods
     * Response code
     * HTTPS
-* [Debugger tools](./debugger)
+* [Debugger tools](./5_debugger)
     * Exploring the DOM.
     * The Javascript console
     * The Network tab
