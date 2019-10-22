@@ -1,20 +1,27 @@
+<p style="center">
+    <link rel="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <i class="fa fa-lg fa-safari"></i>
+    <i class="fa fa-lg fa-chrome"></i>
+    <i class="fa fa-lg fa-firefox"></i>
+    <i class="fa fa-lg fa-edge" aria-hidden="true"></i>
+    <i class="fa fa-lg fa-internet-explorer"></i>
+</p>
+
 # **Understanding the Browser**
+A browser is a client-side application that enables users to access resources that are hosted on the internet. It serves as the gateway between the user and the Web, and it has the responsibility of allowing the user to interact with the websites and web applications, mainly through HTTP requests.
 
-A browser is a piece of software that can be used to access resources that are hosted on the internet. It serves as the gateway between the user and the Web, and it has the responsibility of allowing the user to interact with the web, mainly through HTTP requests.
+> In relation to the previous module, the browser is the **client** in the **client-server** model. It is responsible for sending requests to a server (or servers) in the network and handling the responses so that the user can be presented with information in a human-friendly manner.
 
->_The Browser allows users to interact with the web_
+Browsers are capable of fetching and interpreting different resources, for example HTML documents, images, videos, and PDF files. Additionally, Browsers know how to compose, arrange and style a large number of resources and assets, and to visually compose what the user sees.
 
-In relation to the previous module, the browser is the **client** in the **client-server** model. It is responsible for sending requests to a server (or servers) in the network and handling the responses so that the user can be presented with information in a human-friendly manner.
-
->_The Browser acts as the client, **requesting** resources from the server_
-
+## The evolution of the Web Browser
 In the last few years, browsers have evolved from being a simple interface that requests some static files from a server, and draw the results in a window, to a more complex echosystem of tools and components that allow for more complex and dynamic applications to be consumed by the end-users.
 
  Below we can see the [Netscape Navigator](https://en.wikipedia.org/wiki/Netscape_(web_browser)), one of the first widely used web browsers.
 
- ![netwscape wikipedia][netscape]
-
-Browsers are capable of displaying many types of media, for example a web page, images, videos, and PDF files.
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/en/3/39/Welcome_to_Netscape.gif" width="300">
+</p>
 
 ~~Every resource that is hosted on the internet has a unique id which is called as Uniform resource Identifier.~~
 
@@ -33,14 +40,14 @@ It is similar to the phonebook that we would use in the early days. It basically
 
 DomainName | IPAddress
 ---------- | ---------
-abc.com | 192.56.39.184 
-xyz.com | 192.58.40.196
+google.com | 172.217.14.238 
+github.com | 192.30.255.112
 
 Now the responsibilty of the DNS server is to look up the domain name that is requested by the browser i.e user in the list and return the corresponding ip address.
 
 Back to the browser again. Now the response that is send by the DNS server is received by the browser and now browser sends a request asking for the resource that is hosted on that particular address on the internet.The server sends the requested resource to the browser.
 
-Now , the browser renders the resource by using certain languages. They are:
+Now, the browser renders the resource by using certain languages. They are:
 
 **1) HTML :** HTML stands for Hypertext Markup Language. This language consists of several html tags.The browser uses this tags to identify the type of content and how to display it.
 
@@ -58,9 +65,13 @@ Allthough many browsers have a very similar set of features, the implementation 
 
 You, as a Software Developer, are responsible of understanding the capabilities and limitations that each browser has, and work around them so that your users can have a seamless experience across different browsers.
 
+# Key Take-away points
+* The Browser allows users to _interact with resources in the web_
+* The Browser acts as the _client_, **requesting** resources from the server.
+
+## Up next: [The Document Object Model (DOM)](../3_dom/readme.md)
+
+
 # Contributors
 * [Daniel Ormeno](https://github.com/DanielOrmeno)
 * [Rohit Arram](https://github.com/rohit1636)
-
-
-[netscape]: https://upload.wikimedia.org/wikipedia/en/3/39/Welcome_to_Netscape.gif
