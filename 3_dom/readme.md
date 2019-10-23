@@ -1,6 +1,6 @@
 # The Document Object Model (DOM)
 
-# What is the DOM?
+## What is the DOM?
 The DOM (Document Object Model) is an API (Application Programming Interface) that provides a browser’s representation of a parsed HTML or XML document. Its properties and methods may be accessed or manipulated using JavaScript to change a document’s structure, content, and style.
 
 In other words, through use of the DOM, a protocol is established, and this standard allows developers to use JavaScript to dynamically access and update documents.
@@ -8,7 +8,7 @@ In other words, through use of the DOM, a protocol is established, and this stan
 
 If this sounds difficult to understand, you can view it like this: the DOM is a way that you (and your browser) can represent the entire HTML or XML page, that looks pretty much like a tree. Let's imagine a basic html page. The tree is your page. You have a branch called "body". Let's say you used several "section" tags nested within your "body" tag. You can view each of those "section" tags as a branch growing on your "body" branch. Thanks to this tree-like representation of the webpage, we can then select the exact branch we want and do things with it. 
 
-# Why use the DOM?
+## Why use the DOM?
 Specifically, developers may use JavaScript and the DOM to:
 
 1. Get, add, remove, and reorder HTML elements.
@@ -24,7 +24,7 @@ Objects are an important javascript concept that you might be interested in refi
 
 Let's see some ways to do just that.
 
-# Dom manipulations
+## Dom manipulations
 
 Get an element by ID:
 ```
@@ -131,7 +131,7 @@ https://developer.mozilla.org/en-US/docs/Web/Events
 
 You shall usually attach events to HTML elements, then define functions that contain logic that ought to happen when said events are triggered.
 
-# Your first JavaScript DOM Event
+## Your first JavaScript DOM Event
 ```
 const element = document.getElementById(‘myElement’);
 
@@ -214,10 +214,10 @@ There is a further range of methods such as ```.insertBefore()``` and ```.insert
 
 Once you play around with these DOM basics for a while, try browsing around the web again, and consider just how many amazing possibilities you can already achieve with what you have learned about the DOM.
 
+# Key Take-away points
+* TODO
+
+## Up next: [Basic HTTP](../4_http/readme.md)
+
 # Contributors
 [Carl Evans](https://github.com/carl-evans)
-
-### License
-
-This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit [http://creativecommons.org/licenses/by-sa/4.0/](http://creativecommons.org/licenses/by-sa/4.0/).
-
