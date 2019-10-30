@@ -1,3 +1,0 @@
-# Understanding the browser
-
-# Contributors
