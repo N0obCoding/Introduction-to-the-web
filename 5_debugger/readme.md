@@ -13,14 +13,14 @@ The Inspector tab has a section where the HTML structure for the page is display
 You can hover over the elements that you wish to inspect, and you will see the HTML and the CSS in the inspector tab.
 
 <p align="center">
-  <img src="../assets/googledevtools.png" width="1000">
+  <img src="./assets/googledevtools.png" width="1000">
 </p>
 
 
 You can also select the arrow in the top left corner of the inspector tools and click on the element you want to inspect (square in red).
 
 <p align="center">
-  <img src="../assets/googledevtoolsarrow.png" width="1000">
+  <img src="./assets/googledevtoolsarrow.png" width="1000">
 </p>
 
 Within the CSS panel, you can toggle if a property is displayed, add new CSS properties to see how it will affect your page live, and even edit existing properties. It's important to note that these changes are **local to your browser** and not being saved to the document, so refreshing the page or navigating to a new URL will reset any changes you have in place. 
