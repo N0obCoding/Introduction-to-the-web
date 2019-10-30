@@ -10,6 +10,19 @@ When working with HTML/CSS/JS, there are two primary tabs you'll use to debug is
 
 The Inspector tab has a section where the HTML structure for the page is displayed, and a section where the selected HTML element's CSS is displayed. 
 
+You can hover over the elements that you wish to inspect, and you will see the HTML and the CSS in the inspector tab (see the red rectangle on the image below). The console, which is mentioned below, is also in those tabs.
+
+<p align="center">
+  <img src="./assets/googledevtools.png" width="1000">
+</p>
+
+
+You can also select the arrow in the top left corner of the inspector tools and click on the element you want to inspect (see the red rectangle).
+
+<p align="center">
+  <img src="./assets/googledevtoolsarrow.png" width="1000">
+</p>
+
 Within the CSS panel, you can toggle if a property is displayed, add new CSS properties to see how it will affect your page live, and even edit existing properties. It's important to note that these changes are **local to your browser** and not being saved to the document, so refreshing the page or navigating to a new URL will reset any changes you have in place. 
 
 ### The Console Tab
@@ -26,6 +39,7 @@ Some browsers offer the ability to preview what a page would look like in sizes 
 
 # Contributors
 [Tyler VanBlargan](https://github.com/12vanblart)
+[0ctavia Couneson](https://github.com/0ctavia)
 
 ### License
 
