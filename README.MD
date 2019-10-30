@@ -19,14 +19,18 @@ After taking this course you will understand the client-server model, how data i
 
 ## Course Contents
 * [The client-server Model](./1_clientServer)
-* [Understanding the browser](./2_browser)
-    * Introduction to browser
-    * Functionality of browser
-    * Languages used by the browser
-* [The DOM](./3_dom)
-    * HTML: An overview
-    * CSS: An overview
-    * Javascript: An overview
+* [Understanding the browser](./2_browser#understanding-the-browser)
+    * [The evolution of the Web Browser](./2_browser#the-evolution-of-the-web-browser)
+    * [How does a web browser work?](./2_browser#how-does-a-web-browser-work)
+    * [Domain Name Server](./2_browser#domain-name-server)
+    * [Different Browsers, different worlds](2_browser#different-browsers-different-worlds)
+    * [Key Take-away points](./2_browser#key-take-away-points)
+* [The Document Object Model (DOM)](./3_dom)
+    * [What is the DOM](./3_dom#what-is-the-dom)   
+    * [Why use the DOM](./3_dom#why-use-the-dom)   
+    * [DOM manipulations](./3_dom#dom-manipulations)   
+    * [Your first Javascript DOM event](./3_dom#your-first-javascript-dom-event)
+    * [Key Take-away points](./3_dom#key-take-away-points)
 * [Basic HTTP](./4_http)
     * Request methods
     * Response code

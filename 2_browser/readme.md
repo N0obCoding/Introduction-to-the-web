@@ -31,7 +31,7 @@ Below we can see the profiling tool in the developer tools of chrome, just one o
   <img src="./assets/browser-0.png" width="450">
 </p>
 
-# **How does a web browser work?**
+## **How does a web browser work?**
 Now that we have understood what a browser is. Let's do more technical dive into how the browser works. Lets take a bird's eye view of what happens when we navigate to a website using our browser.
 
 First, whenever you enter the url in the address bar and hit, the browser sends a request to a Domain Name **Server**, often called a DNS (abbreviated).
