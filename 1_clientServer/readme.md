@@ -3,12 +3,14 @@
 The client-server model is a communication model for distributed systems. As the name implies, there are two main roles in this model, the **client** and the **server**, and the model describes how they communicate with each other over the network.
 
 ## The Client role
-The client role is a single entity that requests information from a server. The main characteristic of the client is that it makes a resquest and expects a response from the server, the client role is an 
+The client role is a single entity that requests information from a server. The main characteristic of the client is that it makes a resquest and expects a response from the server, the client can be your phone, your computer, or a more automated system. 
 
-There is often multiple clients making concurrent requests to the same server, so the relationship between client and server is not a 1:1 relationship.
+There are often multiple clients making concurrent requests to the same server, so the relationship between client and server is not a 1:1 relationship.
 
 ## The Server role
-The server role's main characteristic is that is constantly "listening" to incoming requests from one or more clients. When a request appears, the server computes the response and sends the resources to the requester. Multiple clients can consume the same resources in the server.
+You can imagine the server as a computer that is always on, and holds information that other people might need or want to see. The server role's main characteristic is that it is constantly "listening" to incoming requests from one or more clients. Those requests can be webpages, information that is stored on the server, etc. When a request appears, the server computes the response and sends the resources back to the right requester if he has the resources, or sends an error message. (You surely have seen an error 404 at least once in your browsing: this is a answer from the server that it doesn't have the webpage you requested.) 
+
+Multiple clients can consume the same resources in the server.
 
 ## A simplified example.
 
