@@ -10,14 +10,14 @@ When working with HTML/CSS/JS, there are two primary tabs you'll use to debug is
 
 The Inspector tab has a section where the HTML structure for the page is displayed, and a section where the selected HTML element's CSS is displayed. 
 
-You can hover over the elements that you wish to inspect, and you will see the HTML and the CSS in the inspector tab.
+You can hover over the elements that you wish to inspect, and you will see the HTML and the CSS in the inspector tab (see the red rectangle on the image below). The console, which is mentioned below, is also in those tabs.
 
 <p align="center">
   <img src="./assets/googledevtools.png" width="1000">
 </p>
 
 
-You can also select the arrow in the top left corner of the inspector tools and click on the element you want to inspect (square in red).
+You can also select the arrow in the top left corner of the inspector tools and click on the element you want to inspect (see the red rectangle).
 
 <p align="center">
   <img src="./assets/googledevtoolsarrow.png" width="1000">
